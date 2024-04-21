@@ -7,7 +7,16 @@
     font-family: "Work Sans", sans-serif;
 }
 
-.btn-primary {}
+.btn-primary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border: 0;
+    cursor: pointer;
+}
 
 /* shared css end */
 
@@ -67,8 +76,54 @@ nav li a {
 
 .banner-description {
     color: #727272;
+    margin: 30px 0;
+}
+
+.banner img {
+    width: 100%;
+    margin: 30px 0;
 }
 
 /* banner section end */
 
 /* header end */
+
+/* responsive media queries start */
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {}
+
+
+/* responsive media queries end */
