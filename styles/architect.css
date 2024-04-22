@@ -88,6 +88,59 @@ nav li a {
 
 /* header end */
 
+/* main section start */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.teams-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.team-content {
+    padding: 0 70px;
+}
+
+.teams-title {
+    font-size: 45px;
+}
+
+.quick-list {
+    color: #727272;
+}
+
+.of-our {
+    color: #131313;
+}
+
+.features {
+    color: #FF900E;
+}
+
+/* main section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive media queries start */
 
 /*Extra small devices (portrait phones, less than 576px)*/
